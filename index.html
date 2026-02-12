@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les Yeux de Mona - Galerie Interactive</title>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.js"></script>
-    <style>
-        body { margin: 0; padding: 0; }
-        #root { width: 100%; height: 100vh; }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mona's Eyes Gallery</title>
+
+<link rel="stylesheet" href="style.css" />
+
+<!-- Three.js CDN -->
+<script type="module" src="main.js"></script>
 </head>
+
 <body>
-    <div id="root"></div>
-    <script type="text/babel" src="monas-eyes-gallery.jsx"></script>
-    <script type="text/babel">
-        const { X } = lucideReact;
-        ReactDOM.render(<MonasEyesGallery />, document.getElementById('root'));
-    </script>
+
+<div id="overlay" class="overlay hidden">
+  <div class="panel">
+    <h2 id="title"></h2>
+    <p id="artist"></p>
+    <p id="year"></p>
+  </div>
+</div>
+
 </body>
 </html>
