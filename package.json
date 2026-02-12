@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Interactive gallery for Les Yeux de Mona by Thomas Schlesser",
   "main": "monas-eyes-gallery.jsx",
-  "homepage": "https://alemieux3.github.io/monas-eyes-gallery",
+  "homepage": "https://github.com/alemieux3/monas-eyes-gallery/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
