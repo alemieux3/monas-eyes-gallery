@@ -1,17 +1,10 @@
-# Les Yeux de Mona - Galerie Interactive
+# Mona's Eyes - Interactive Gallery
 
-Une galerie interactive en 3D présentant les 52 chefs-d'œuvre du roman "Les Yeux de Mona" de Thomas Schlesser.
-
+An interactive gallery presenting the 52 masterpieces from Thomas Schlesser's novel “Les Yeux de Mona” (Mona's Eyes).
 ## Description
 
-Cette galerie présente des œuvres du Louvre, du Musée d'Orsay et du Centre Pompidou avec des animations élégantes et une interface immersive.
-
-## Installation
-```bash
-npm install
-npm start
-```
+This gallery presents works from the Louvre, the Musée d'Orsay, and the Centre Pompidou with elegant animations and an immersive interface.
 
 ## Utilisation
 
-Cliquez sur n'importe quelle vignette pour voir les détails complets de l'œuvre.
+Click on any thumbnail to see the complete details of the work. Filter by period or by artist.
