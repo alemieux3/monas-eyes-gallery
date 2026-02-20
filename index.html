@@ -10,7 +10,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-
+<main>
     <header class="hero">
         <h1>Mona's Eyes</h1>
         <p class="subtitle">All of the works mentioned in Thomas Schlesser's best selling novel.</p>
@@ -18,8 +18,12 @@
     </header>
 
     <div class="filter-bar">
-        <select id="periodFilter"><option value="all">Filter by Period: All</option></select>
+        <label for="periodFilter">
+            <select id="periodFilter"><option value="all">Filter by Period: All</option></select>
+        </label>
+        <label for="artistFilter">
         <select id="artistFilter"><option value="all">Filter by Artist: All</option></select>
+        </label>
         <button id="clearFilters" class="clear-btn">Clear Filters</button>
     </div>
 
@@ -41,6 +45,6 @@
         </div>
     </div>
 <script src="js/script.js"></script>
-
+</main>
 </body>
 </html>

@@ -131,7 +131,7 @@
             const card = document.createElement('div');
             card.className = 'painting-card';
             card.onclick = () => openOverlay(item);
-            card.innerHTML = `<img src="thumbnails/${item.thumb}"><p>${item.painting}</p>`;
+            card.innerHTML = `<img src="thumbnails/${item.thumb}" alt="${item.painting}"><p>${item.painting}</p>`;
             grid.appendChild(card);
         });
     }
